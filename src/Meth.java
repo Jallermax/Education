@@ -26,9 +26,17 @@ public class Meth {
     public static int maximum(ArrayList<Integer> arr){
         int max = 0;
         for (Integer anArr : arr) {
-            if ((int) anArr > max)
-                max = (int) anArr;
+            if (anArr > max)
+                max = anArr;
         }
         return max;
+    }
+
+    public static boolean isDivided(int num, int all) {
+        System.out.println(num);
+        for (int alln=1; alln<=all; alln++)
+            if (num%alln!=0)
+                return false;
+        return true;
     }
 }
