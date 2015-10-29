@@ -33,7 +33,6 @@ public class Meth {
     }
 
     public static boolean isDivided(int num, int all) {
-        System.out.println(num);
         for (int alln=1; alln<=all; alln++)
             if (num%alln!=0)
                 return false;

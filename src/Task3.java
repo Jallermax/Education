@@ -17,6 +17,4 @@ public class Task3 {
             }
         return (int) maxPrime;
     }
-
-
 }
