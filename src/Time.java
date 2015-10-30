@@ -40,7 +40,5 @@ public class Time {
     public void printAmmount(){
         DateFormat df = new SimpleDateFormat("mm:ss,SSS");
         System.out.print("\nExecution time: " + df.format(finish - start));
-
-        //System.out.println(" Execution time:\n-----"+(finish-start)+"ms-----");
     }
 }
