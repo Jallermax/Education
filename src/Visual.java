@@ -4,7 +4,7 @@
 public class Visual {
     public static void name(){System.out.println("\nUnnamed task\n");}
     public static void name(String n){
-        System.out.println("\n**********************************\n" + n + "\n" + "__________________________________");}
+        System.out.println("\n____________________________________________________________________\n" + n + "\n" + "____________________________________________________________________");}
     public static void result(){
         System.out.println("**Done**");}
     public static void result(String res){
